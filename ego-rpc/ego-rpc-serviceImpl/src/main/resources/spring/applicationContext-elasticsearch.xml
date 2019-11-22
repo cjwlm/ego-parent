@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:elasticsearch="http://www.springframework.org/schema/data/elasticsearch"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/data/elasticsearch
+        https://www.springframework.org/schema/data/elasticsearch/spring-elasticsearch-1.0.xsd">
+
+    <!--
+        初始化elasticsearch
+            cluster-name：集群名称
+            cluster-nodes：集群IP + 端口
+            client-transport-sniff：是否开启嗅探模式自动嗅探整个集群的状态，
+                                    es会自动把集群中其它机器的ip地址加到客户端中
+     -->
+    <elasticsearch:transport-client id="client"
+                                    cluster-name="${es.cluster-name}"
+                                    client-transport-sniff="true"
+                                    cluster-nodes="${es.cluster-nodes}"/>
+
+</beans>
