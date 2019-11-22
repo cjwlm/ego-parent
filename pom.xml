@@ -46,7 +46,7 @@
         <!-- 分页工具依赖 -->
         <pagehelper.version>4.1.6</pagehelper.version>
         <!-- 文件上传依赖 -->
-        <commons-fileupload.version>1.3.2</commons-fileupload.version>
+        <commons-fileupload.version>1.3.3</commons-fileupload.version>
         <!-- redis依赖2.9.1版本为了兼容springdata-redis -->
         <jedis.version>2.9.1</jedis.version>
         <!-- spring data redis依赖使用1+最新版本因为2+需要spring5+版本 -->
