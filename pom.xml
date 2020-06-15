@@ -25,7 +25,7 @@
         <!-- spring依赖 -->
         <spring-version>4.3.4.RELEASE</spring-version>
         <!-- hibernate数据验证框架依赖 -->
-        <hibernate-validator.version>5.3.3.Final</hibernate-validator.version>
+        <hibernate-validator.version>5.3.5.Final</hibernate-validator.version>
         <!-- spring-mybatis依赖 -->
         <mybatis-spring.version>1.3.0</mybatis-spring.version>
         <!-- mybatis依赖 -->
