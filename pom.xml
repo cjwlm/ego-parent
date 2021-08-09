@@ -65,7 +65,7 @@
         <!-- zkclient依赖 -->
         <zkclient-version>0.1</zkclient-version>
         <!-- elasticsearch依赖 -->
-        <elasticsearch.version>2.4.5</elasticsearch.version>
+        <elasticsearch.version>6.8.17</elasticsearch.version>
         <!-- springdataelasticsearch依赖 -->
         <springdata-elasticsearch.version>2.0.11.RELEASE</springdata-elasticsearch.version>
         <!-- google kaptcha 依赖 -->
