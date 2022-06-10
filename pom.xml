@@ -59,7 +59,7 @@
         <commons-net.version>3.3</commons-net.version>
         <commons-logging.version>1.2</commons-logging.version>
         <!-- dubbo依赖 -->
-        <dubbo-version>2.6.0</dubbo-version>
+        <dubbo-version>2.6.12</dubbo-version>
         <!-- zookeeper依赖 -->
         <zookeeper-version>3.4.13</zookeeper-version>
         <!-- zkclient依赖 -->
